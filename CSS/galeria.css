@@ -4,14 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 100%;
 }
 
 #galeria h3 {
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -23,18 +22,18 @@
 }
 
 .gContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
     gap: 20px;
-    padding: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .gContainer img {
   width: 250px;
   height: 250px;
   object-fit: cover;
+  border: 3px solid red;
 }
 
 .tooltip {

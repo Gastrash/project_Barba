@@ -3,20 +3,32 @@
 header {
     background-color: #353333;
     color: #fff;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 header h1 {
-    margin: 0;
+    letter-spacing: 3px;
     font-size: 24px;
 }
 
-#contactanos, #singup {
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#contactanos, #galeria {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
     font-size: 16px;
 }
