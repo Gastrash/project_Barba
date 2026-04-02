@@ -2,7 +2,7 @@
 
 const tooltip = document.querySelector(".tooltip");
 
-const imgs = document.querySelectorAll(".grid-container img");
+const imgs = document.querySelectorAll(".gContainer img");
 
 imgs.forEach(img => {
     img.addEventListener("mouseenter", (e) => {
