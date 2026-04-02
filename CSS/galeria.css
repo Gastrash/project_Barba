@@ -44,3 +44,7 @@
 .tooltip.active {
     opacity: 1;
 }
+
+.hovered {
+    transform: scale(1.2);
+}
