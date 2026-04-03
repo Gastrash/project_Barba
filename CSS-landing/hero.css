@@ -53,5 +53,6 @@
 }
 
 .buttons:hover {
-    background: rgb(224, 17, 17);
+    background: rgb(218, 171, 16);
+    transform: scale(1.05);
 }
