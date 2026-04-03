@@ -56,3 +56,19 @@
 .hovered {
     transform: scale(1.2);
 }
+
+/* Responsividades */
+
+/* celular */
+@media (max-width: 768px) {
+    .gContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+    .gContainer {
+        grid-template-columns: repeat(2, 250px);
+    }
+}
