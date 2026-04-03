@@ -15,6 +15,13 @@
 #hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    height: 30vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #e0b011;
 }
 
 #hero h2 {
@@ -25,10 +32,13 @@
 #hero p {
     font-size: 18px;
     text-align: center;
+    height: 30vh;
+
+    border: 2px solid #e0b011;
 }
 
 #actions {
-    width: 50%;
+    width: 60%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -36,20 +46,23 @@
 }
 
 .buttons {
-    width: 40%;
+    width: 47%;
     height: 60px;
     background: #2c3335;
-    color: #fff;
+    color: #000000;
     border: none;
     cursor: pointer;
     font-size: 16px;
     background: rgba(224, 176, 17, 0.877);
     text-decoration: none;
+    padding: 35px;
 
+    font-weight: 750;
+    letter-spacing: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background 1s ease;
+    transition: all 0.5s ease;
 }
 
 .buttons:hover {
