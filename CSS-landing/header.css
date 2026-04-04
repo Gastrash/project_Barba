@@ -6,6 +6,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    height: 10vh;
     padding: 20px 20px;
     
     position: fixed;
@@ -17,7 +19,7 @@ header {
 
 #titulo {
     letter-spacing: 5px;
-    font-size: 24px;
+    font-size: 35px;
     text-decoration: none;
     color: white;
     transition: color 2s ease;
