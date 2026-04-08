@@ -15,13 +15,15 @@
         <link rel="stylesheet"
         href="../CSS-landing/hero.css">
         <link rel="stylesheet"
-        href="../CSS-landing/about.css">
+        href="../CSS-landing/aboutUs.css">
         <link rel="stylesheet"
         href="../CSS-landing/galeria.css">
         <link rel="stylesheet"
         href="../CSS-landing/turnos.css">
         <link rel="stylesheet"
         href="../CSS-landing/contactUs.css">
+        <link rel="stylesheet"
+        href="../CSS-landing/auth.css">
     </head>
 
     <body>
@@ -82,27 +84,17 @@
                 asegurando que salgan satisfechos
                 con su nuevo look.</p>
             </section>
-            
-            <section id="contactanos">
-                <div id="imgContainer">
-                    <img src="" alt="">
-                </div>
-                <div id="formContainer">
-                    <form id="form">
-                        <h1></h1>
-                        <p></p>
-                        <input class="input">
-                        <label>Nombre de Usuario
-                        </label>
-                        <input class="input">
-                        <label>Contraseña
-                        </label>
-                        <p>Mensaje:</p>
-                        <input class="input"
-                        id="mensaje" placeholder=
-                        """Hola, me encantaría un turno 
-                        para el lunes, a las 10:00""">
-                </form>
+
+            <section id="turnos">
+                <h1 id="tituloTurnos">Reserva tu
+                Turno</h1>
+                <p id="infoTurnos">Para reservar tu
+                turno, por favor contáctanos a través
+                de nuestro número de teléfono o
+                envíanos un correo electrónico.
+                Estamos ubicados en [dirección
+                de la barbería].
+                ¡Esperamos verte pronto!</p>
             </section>
 
             <section id="galeria">
@@ -136,16 +128,34 @@
                 </div>
             </section>
 
-            <section id="turnos">
-                <h1 id="tituloTurnos">Reserva tu
-                Turno</h1>
-                <p id="infoTurnos">Para reservar tu
-                turno, por favor contáctanos a través
-                de nuestro número de teléfono o
-                envíanos un correo electrónico.
-                Estamos ubicados en [dirección
-                de la barbería].
-                ¡Esperamos verte pronto!</p>
+            <section id="contactanos">
+                <div id="canalesContainer">
+                </div>
+                <div id="formContainer">
+                    <form id="form">
+                        <h1>Contactanos</h1>
+                        <p>Envianos un mensaje:</p>
+                        <input class="inputContact mensaje" placeholder=
+                        "Hola!, me encantaría un turno para el lunes, a las 10:00">
+                        <button id="buttonForm">Enviar</button>
+                </form>
+            </section>
+
+            <section id="authSection">
+                    <div id="imgContainer">
+                        <img src="../img/mas img/fondo11.jpg" alt="imagen 11">
+                    </div>
+                    <div id="formContainer">
+                        <form id="formAuth">
+                            <h1>Iniciar Sesión</h1>
+                            <input class="input">
+                            <label>Nombre de Usuario
+                            </label>
+                            <input class="input">
+                            <label>Contraseña
+                            </label>
+                            <button id="buttonForm">Ingresar</button>
+                    </form>
             </section>
 
         </main>
