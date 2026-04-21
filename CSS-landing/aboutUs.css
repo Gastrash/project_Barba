@@ -1,25 +1,69 @@
 /* Sobre Nosotros */
 
 #sobreNosotros {
-    height: 50vh;
+    height: 60vh;
     background: #0a0808;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    padding: 40px;
-    color: aliceblue;
+    align-items: center;
     width: 100%;
     scroll-margin-top: 20vh;
 }
 
-#sobreNosotros h2 {
-    font-size: 28px;
+#bioContainer {
+    background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 80%;
+    border-right: 2px solid #8d8d8d71;
+    gap: 5vh;
+    font-family: 'oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+#statsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    width: 80%;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    border-top: 2px solid #8d8d8d71;
+    border-bottom: 2px solid #8d8d8d71;
+}
+
+#bioContainer h2 {
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
-#sobreNosotros p {
+#bioContainer p {
     font-size: 18px;
     text-align: center;
     max-width: 600px;
+}
+
+.stat h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.stat p {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.5px;
 }
