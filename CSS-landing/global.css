@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  /* border: 3px solid red; */
+  /*border: 3px solid red;*/
 }
 
 html, body {
@@ -78,4 +78,11 @@ footer div {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  10% { transform: translateY(-10px); }
+  20% { transform: translateY(0); }
+  100% { transform: translateY(0); }
 }
