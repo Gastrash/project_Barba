@@ -39,7 +39,7 @@ dorado claro:#FFF3B0*/
     display: flex;
     flex-direction: row;
     background: rgb(39, 34, 34);
-    border: 3px solid black;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 
@@ -95,6 +95,11 @@ dorado claro:#FFF3B0*/
     overflow: hidden;
     transition: all 0.4s ease;
     border-radius: 40px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+#buttonsContainer a:hover {
+    transform: scale(1.05);
 }
 
 #infoContact a img {
@@ -142,7 +147,7 @@ dorado claro:#FFF3B0*/
 }
 
 #buttonForm {
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.726);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     width: 40%;
     height: 10%;
     color: #000000;
@@ -162,5 +167,4 @@ dorado claro:#FFF3B0*/
 
 #buttonForm:hover {
     transform: scale(1.1);
-    box-shadow: 0 5px 20px #FFD700;
 }
