@@ -64,13 +64,13 @@ dorado claro:#FFF3B0*/
 
 #infoContact h1 {
     font-family: 'oswald', sans-serif;
-    font-size: clamp(20px, 4vw, 30px);
-    margin-bottom: clamp(40px, 10vw, 60px);
+    font-size: clamp(25px, 6vw, 30px);
+    margin-bottom: clamp(30px, 5vw, 60px);
 }
 
 #infoContact p {
     font-family: 'oswald', sans-serif;
-    font-size: clamp(10px, 2vw, 16px);
+    font-size: clamp(13px, 2vw, 16px);
 }
 
 #buttonsContainer {
@@ -80,7 +80,7 @@ dorado claro:#FFF3B0*/
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: clamp(40px, 10vw, 60px);
+    margin-top: clamp(30px, 5vw, 60px);
 }
 
 #buttonsContainer a {
@@ -89,8 +89,8 @@ dorado claro:#FFF3B0*/
     align-items: center;
     color: white;
     background: linear-gradient(145deg, #FFD700 0%, #FFC107 100%);
-    width: clamp(30px, 10vw, 70px);
-    height: clamp(30px, 10vw, 70px);
+    width: clamp(50px, 6vw, 60px);
+    height: clamp(50px, 6vw, 60px);
     object-fit: cover;
     overflow: hidden;
     transition: all 0.4s ease;
@@ -105,7 +105,7 @@ dorado claro:#FFF3B0*/
 
 #formMensajes h1 {
     font-family: 'oswald', sans-serif;
-    font-size: clamp(20px, 4vw, 50px);
+    font-size: clamp(25px, 6vw, 50px);
 }
 
 #formMensajes p {
@@ -114,28 +114,30 @@ dorado claro:#FFF3B0*/
 }
 
 #inputEmail {
+  font-size: clamp(10px, 2vw, 16px);
   padding: clamp(5px, 2vw, 10px);
   color: black;
-  margin-bottom: clamp(5px, 5vw, 15px);
-  width: clamp(450px, 100%, 500px);
-  height: clamp(20px, 10vw, 40px);
+  margin-bottom: clamp(2px, 5vw, 15px);
+  width: clamp(270px, 30vw, 650px);
+  height: clamp(10px, 5vw, 35px);
 }
 
 #inputMensaje {
+  font-size: clamp(10px, 2vw, 16px);
   padding: clamp(5px, 2vw, 10px);
   color: black;
-  margin-bottom: clamp(15px, 5vw, 25px);
-  width: clamp(300px, 100%, 500px);
-  height: clamp(40px, 15vw, 100px);
+  margin-bottom: clamp(5px, 2vw, 20px);
+  width: clamp(270px, 30vw, 650px);
+  height: clamp(50px, 10vw, 100px);
 }
 
 #buttonForm {
-    width: clamp(100px, 30%, 150px);
+    width: clamp(80px, 5vw, 120px);
     color: #000000;
     cursor: pointer;
-    font-size: clamp(14px, 2vw, 25px);
+    font-size: clamp(10px, 4vw, 20px);
     background: linear-gradient(145deg, #FFD700 0%, #FFC107 100%);
-    padding: clamp(2px, 2vw, 5px);
+    padding: clamp(0px, 2vw, 3px);
     font-weight: 600;
     transition: all 0.4s ease;
 }
@@ -149,16 +151,8 @@ dorado claro:#FFF3B0*/
     
     #mensajeContainer {
         height: 95%;
-        width: 80%;
+        width: 85%;
         flex-direction: column;
-    }
-    
-    #mensajeContainer h1 {
-        font-size: 25px;
-    }
-
-    #mensajeContainer p {
-        font-size: 10px;
     }
     
     #formMensajes {
@@ -173,61 +167,7 @@ dorado claro:#FFF3B0*/
         border-left: none;
     }
     
-    #infoContact h1 {
-        padding: 10px;
-    }
-
-    #infoContact p {
-        border-bottom: none;
-        padding-left: 5px;
-        width: 75%;
-    }
-
-    #buttonsContainer {
-        width: 100%;
-        margin-top: 25px;
-    }
-
-    #buttonsContainer a {
-        width: 40px;
-        height: 40px;
-    }
-
-    #infoContact a img {
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
-        transition: all 0.4s ease;
-    }
-
-    #formMensajes h1 {
-        padding: 10px;
-        border-bottom: 2px solid #FFD700;
-    }
-
     #formMensajes p {
-        width: 75%;
-        margin-top: 20px;
-        border-bottom: none;
+        width: 90%;
     }
-
-    #inputEmail {
-        font-size: larger;
-    }
-
-    #inputMensaje {
-      padding: 15px;
-      padding-left: 0px;
-      margin-top: 15px;
-      height: 10%;
-    }
-
-    #buttonForm {
-        width: 30%;
-        height: 8%;
-        font-size: clamp(15px, 2vw, 30px);        
-        padding: 5px;
-        margin-top: 5px;
-    }
-
 }

@@ -28,7 +28,7 @@
 }
 
 #galeria h1 {
-    font-size: 40px;
+    font-size: clamp(30px, 2vw, 40px);
     background: #0000006d;
     text-align: center;
     padding: 25px;
@@ -44,7 +44,7 @@
     align-items: center;
     text-decoration: none;
     width: 90%;
-    gap: 60px;
+    gap: clamp(20px, 5vw, 60px);
     background: none;
 }
 
@@ -68,8 +68,8 @@
 }
 
 .slide img {
-  width: 300px;
-  height: 300px;
+  width: clamp(150px, 50vw, 400px);
+  height: clamp(150px, 50vw, 400px);
   object-fit: cover;
   object-position: top;
   margin: 0 22px;
@@ -84,13 +84,13 @@
 .navButton {
     color: #fff;
     border: none;
-    height: 100px;
-    width: 100px;
+    height: clamp(100px, 10vw, 100px);
+    width: clamp(100px, 10vw, 100px);
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 50px;
+    font-size: clamp(30px, 5vw, 50px);
     background: black;
     border-radius: 80px;
     text-decoration: none;
@@ -141,6 +141,10 @@
 /* tablet */
 @media (max-width: 1024px) {
     .carrusel {
-        width: 90%;
+        width: 100%;
+    }
+
+    .slide {
+        flex-direction: column;
     }
 }
