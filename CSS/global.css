@@ -77,9 +77,8 @@ footer div {
 
 .bg-video {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-60%, -50%);
+  top: 0%;
+  left: 0%;
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
@@ -92,4 +91,13 @@ footer div {
   10% { transform: translateY(-10px); }
   20% { transform: translateY(0); }
   100% { transform: translateY(0); }
+}
+
+@media (max-width: 1024px) {
+  .bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+  }
 }
