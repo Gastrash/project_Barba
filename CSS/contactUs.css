@@ -33,18 +33,19 @@ dorado claro:#FFF3B0*/
 
 #mensajeContainer {
     height: 65%;
-    width: 55%;
+    width: 60%;
     background: white;
     color: white;
     display: flex;
     flex-direction: row;
     background: rgb(39, 34, 34);
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 
+    15px 15px 15px rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 
 #formMensajes {
-    width: 70%;
+    width: 65%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -53,7 +54,7 @@ dorado claro:#FFF3B0*/
 }
 
 #infoContact {
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -65,12 +66,13 @@ dorado claro:#FFF3B0*/
 #infoContact h1 {
     font-family: 'oswald', sans-serif;
     font-size: clamp(25px, 6vw, 30px);
-    margin-bottom: clamp(30px, 5vw, 60px);
+    margin-bottom: clamp(30px, 5vw, 50px);
+    max-width: 90%;
 }
 
 #infoContact p {
     font-family: 'oswald', sans-serif;
-    font-size: clamp(13px, 2vw, 16px);
+    font-size: clamp(13px, 2vw, 15px);
 }
 
 #buttonsContainer {
@@ -80,7 +82,7 @@ dorado claro:#FFF3B0*/
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: clamp(30px, 5vw, 60px);
+    margin-top: clamp(30px, 5vw, 50px);
 }
 
 #buttonsContainer a {
@@ -111,6 +113,7 @@ dorado claro:#FFF3B0*/
 #formMensajes p {
     font-size: clamp(10px, 2vw, 17px);
     font-family: 'oswald', sans-serif;
+    max-width: 80%;
 }
 
 #inputEmail {
@@ -118,7 +121,7 @@ dorado claro:#FFF3B0*/
   padding: clamp(5px, 2vw, 10px);
   color: black;
   margin-bottom: clamp(2px, 5vw, 15px);
-  width: clamp(250px, 50vw, 560px);
+  width: clamp(230px, 65vw, 400px);
   height: clamp(10px, 5vw, 35px);
 }
 
@@ -127,8 +130,8 @@ dorado claro:#FFF3B0*/
   padding: clamp(5px, 2vw, 10px);
   color: black;
   margin-bottom: clamp(2px, 5vw, 15px);
-  width: clamp(250px, 50vw, 560px);
-  height: clamp(50px, 10vw, 100px);
+  width: clamp(230px, 65vw, 400px);
+  height: clamp(50px, 10vw, 80px);
 }
 
 #buttonForm {
@@ -165,9 +168,5 @@ dorado claro:#FFF3B0*/
         height: 50%;
         border-top: 2px solid rgb(80, 80, 80);
         border-left: none;
-    }
-    
-    #formMensajes p {
-        width: 80%;
     }
 }
