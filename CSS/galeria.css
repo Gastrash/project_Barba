@@ -43,7 +43,7 @@
     align-items: center;
     text-decoration: none;
     width: 90%;
-    gap: clamp(20px, 5vw, 60px);
+    gap: clamp(20px, 6vw, 60px);
     background: none;
 }
 
@@ -67,11 +67,11 @@
 }
 
 .slide img {
-  width: clamp(130px, 6vw, 400px);
-  height: clamp(130px, 6vw, 400px);
+  width: clamp(130px, 20vw, 400px);
+  height: clamp(130px, 20vw, 400px);
   object-fit: cover;
   object-position: top;
-  margin-right: 25px;
+  margin-right: clamp(15px, 10vw, 35px);
   transition: transform 0.3s ease;
 }
 

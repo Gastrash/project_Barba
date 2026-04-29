@@ -76,7 +76,7 @@ dorado claro:#FFF3B0*/
 #buttonsContainer {
     display: flex;
     flex-direction: row;
-    gap: clamp(5px, 5vw, 15px);
+    gap: clamp(10px, 4vw, 15px);
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -89,8 +89,8 @@ dorado claro:#FFF3B0*/
     align-items: center;
     color: white;
     background: linear-gradient(145deg, #FFD700 0%, #FFC107 100%);
-    width: clamp(50px, 6vw, 60px);
-    height: clamp(50px, 6vw, 60px);
+    width: clamp(45px, 6vw, 60px);
+    height: clamp(45px, 6vw, 60px);
     object-fit: cover;
     overflow: hidden;
     transition: all 0.4s ease;
@@ -109,7 +109,7 @@ dorado claro:#FFF3B0*/
 }
 
 #formMensajes p {
-    font-size: clamp(10px, 2vw, 16px);
+    font-size: clamp(10px, 2vw, 17px);
     font-family: 'oswald', sans-serif;
 }
 
@@ -118,7 +118,7 @@ dorado claro:#FFF3B0*/
   padding: clamp(5px, 2vw, 10px);
   color: black;
   margin-bottom: clamp(2px, 5vw, 15px);
-  width: clamp(270px, 30vw, 650px);
+  width: clamp(250px, 50vw, 560px);
   height: clamp(10px, 5vw, 35px);
 }
 
@@ -126,13 +126,13 @@ dorado claro:#FFF3B0*/
   font-size: clamp(10px, 2vw, 16px);
   padding: clamp(5px, 2vw, 10px);
   color: black;
-  margin-bottom: clamp(5px, 2vw, 20px);
-  width: clamp(270px, 30vw, 650px);
+  margin-bottom: clamp(2px, 5vw, 15px);
+  width: clamp(250px, 50vw, 560px);
   height: clamp(50px, 10vw, 100px);
 }
 
 #buttonForm {
-    width: clamp(80px, 5vw, 120px);
+    width: clamp(80px, 10vw, 140px);
     color: #000000;
     cursor: pointer;
     font-size: clamp(10px, 4vw, 20px);

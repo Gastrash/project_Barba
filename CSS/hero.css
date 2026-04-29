@@ -53,17 +53,16 @@
 }
 
 #arrow {
-    width: clamp(30px, 6vw, 60px);
-    height: clamp(30px, 6vw, 60px);
+    width: clamp(30px, 6vw, 50px);
+    height: clamp(30px, 6vw, 50px);
     position: absolute;
-    top: -170%;
-    right: 35%;
-    /*border: 3px solid #FFD700;*/
+    top: -130%;
+    right: 34%;
 }
 
 #scrollDown {
     text-align: center;
-    font-size: clamp(20px, 2vw, 40px);
+    font-size: clamp(20px, 2vw, 30px);
     text-decoration: none;
     color: #FFD700;
     font-family: 'Oswald', sans-serif;
@@ -71,7 +70,6 @@
     margin-top: 5px;
     margin-right: clamp(20px, 6vw, 80px);
     position: relative;
-    /*border: 3px solid #FFD700;*/
 }
 
 #hero-container h1 {
