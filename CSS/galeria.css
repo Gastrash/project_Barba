@@ -68,8 +68,8 @@
 }
 
 .slide img {
-  width: clamp(100px, 35vw, 240px);
-  height: clamp(100px, 35vw, 240px);
+  width: clamp(100px, 35vw, 300px);
+  height: clamp(100px, 35vw, 300px);
   object-fit: cover;
   object-position: top;
   margin: 0 clamp(10px, 20vw, 20px);
